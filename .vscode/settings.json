@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "raylib.h": "c",
+    "hatlib.h": "c"
+  },
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+}
