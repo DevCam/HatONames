@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
   if(argc == 2)
   {
     printf("will use studentFile @ %s\n", argv[1]);
-    h = HatNewFromFile(argv[1], 16);
+    h = HatNewFromFile(argv[1], 24);
   }
   else
   {
@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
   }
 
   int cmd = 0;
-  printf("~HoN 0.1\n> ");
+  printf("~HoN 0.1.1\n> ");
   while((cmd = fgetc(stdin)) != EOF)
   {
     if(cmd == 'p')
